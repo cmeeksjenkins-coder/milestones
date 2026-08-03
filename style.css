@@ -96,7 +96,76 @@ footer {
     text-align: center;
     padding: 20px;
     margin-top: 30px;
+}.experience-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
 }
 
+.experience-item {
+    background: white;
+    padding: 20px;
+    border: 2px solid #14213d;
+    border-radius: 8px;
+}
+/* Tablet */
+@media screen and (max-width: 768px) {
 
+    .experience-grid {
+        grid-template-columns: 1fr;
+    }
 
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        display: block;
+        margin: 8px 0;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+}
+
+/* Mobile */
+@media screen and (max-width: 320px) {
+
+    header {
+        padding: 15px;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        display: block;
+        margin: 8px 0;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    .content-card {
+        padding: 15px;
+    }
+
+    .experience-grid {
+        grid-template-columns: 1fr;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+}
