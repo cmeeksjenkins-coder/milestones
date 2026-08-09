@@ -29,11 +29,10 @@ header {
     margin: 0;
     padding: 10px;
 }
-
-/* Navigation */
 /* Navigation */
 nav {
     background-color: #c9a227;
+    color: #000000;
     padding: 12px;
 }
 
@@ -54,7 +53,6 @@ nav a:focus {
     background-color: #14213d;
     text-decoration: underline;
 }
-
 
 /* Main page */
 main {
