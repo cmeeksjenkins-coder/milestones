@@ -120,6 +120,58 @@ footer {
 #main-title {
     color: #ffffff;
 }
+/* Contact form */
+
+.form-group {
+    margin-bottom: 16px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #14213d;
+    border-radius: 6px;
+    font: inherit;
+}
+
+fieldset {
+    margin: 16px 0;
+    padding: 16px;
+    border: 2px solid #c9a227;
+}
+
+fieldset label {
+    margin-right: 16px;
+}
+
+button {
+    background-color: #14213d;
+    color: #ffffff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover,
+button:focus {
+    background-color: #000000;
+}
+
+.error-message {
+    color: #8b0000;
+    font-weight: bold;
+    margin-top: 4px;
+}
+
 /* Tablet */
 @media screen and (max-width: 768px) {
 
