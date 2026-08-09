@@ -108,25 +108,29 @@ footer {
     border: 2px solid #14213d;
     border-radius: 8px;
 }
+/* Accessibility contrast fixes */
+
 #main-title {
     color: #ffffff;
 }
 
 nav a {
-    color: #14213d;
+    color: #000000;
     text-decoration: none;
     font-weight: bold;
 }
 
 nav a:visited {
-    color: #14213d;
+    color: #000000;
 }
 
 nav a:hover,
 nav a:focus {
-    color: #000000;
+    color: #ffffff;
+    background-color: #14213d;
     text-decoration: underline;
 }
+
 /* Tablet */
 @media screen and (max-width: 768px) {
 
